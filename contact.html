@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <style>
+        body
+        {
+            
+            background-color: aliceblue;
+        }
+        .form_content
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding:2vh 0px 2vh 0px;
+        }
+        .form_content h2
+        {
+            background-color: white;
+            margin:1vh 0px;
+        }
+        hr
+        {
+            color: black;
+            height: 0.1vh;
+            width: 30vw;
+        }
+        .contact_form
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+            height: 80vh;
+            width: 40vw;
+            background-color: white;
+            
+            padding:2vh 0px 0px 0px;
+        }
+        .contact_form p
+        {
+            font-weight: bold;
+            margin:1vh;
+        }
+        .name
+        {
+            height: 5vh;
+            margin:5vh;
+            
+        }
+        .name input{
+            width: 20vw;
+            margin:auto;
+            background-color:floralwhite;
+        }
+        .email
+        {
+            height: 5vh;
+            margin:5vh;
+
+        }
+        .email input
+        {
+            width: 20vw;
+            margin:auto;
+            background-color:floralwhite;
+        }
+        .message
+        {
+            height: 10vh;
+            margin:5vh;
+        }
+        .message input
+        {
+            height: 8vh;
+            width: 20vw;
+            margin:auto;
+            background-color:floralwhite;
+        }
+        .subbmit_button
+        {
+            margin: 2vh auto auto auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="flipkart logo">
+            </div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li> <a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" name="" id="" placeholder="   Search for products, brand and more">
+                <div class="btn"><button><img src="button-logo.png" alt="button logo"> </button></div>
+            </div>
+        </nav>
+    </header>
+    <div class="form_content">
+       
+    <div class="contact_form">
+        <h2>Contact Form</h2>
+        <hr>
+        <form>
+            <div class="name"> <p>Name:</p><input type="text" placeholder="First Name  Last Name"></div>
+           <div class="email"><p>Email:</p><input type="email" placeholder="yourmail@mail.com"></div>
+            <div class="message"><p>Message</p><input type="text area" placeholder="Type your message here"></div>
+            
+        </form>
+        <div class="submit_button">
+            <button>Submit</button>
+        </div>
+    </div>
+</div>
+<footer class="flex-all-center">
+    <p>Copyright &copy; samantacart.com</p>
+</footer>
+</body>
+</html>

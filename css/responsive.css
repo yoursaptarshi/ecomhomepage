@@ -1,0 +1,53 @@
+@media screen and (max-width:1000px)
+{
+    body{
+        
+    }
+    
+    nav
+    {
+        flex-direction: column;
+        
+    }
+    .logo
+    {
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .logo img
+    {
+        width:20vw;
+        
+    }
+    nav ul
+    {
+        
+        justify-content: center;
+        align-items: center;
+       
+
+    }
+    .search
+    {
+        justify-content: center;
+        align-items: center;
+        width:100vw;
+       
+    }
+    .search input
+    {
+        width:50vw;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .card-item
+{
+ max-width:15vw;
+ margin:0px auto;
+ 
+ /* background-color: brown    */
+}
+
+}

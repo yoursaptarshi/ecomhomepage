@@ -1,0 +1,27 @@
+.flex-all-center{
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+}
+.btn
+{
+    display:flex;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    cursor: pointer;
+    
+}
+.btn img
+{
+    display:flex;
+    align-items: center;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    height:3vh;
+    width:2vw;
+    justify-content:right;
+}
+hr{
+    color:aliceblue;
+    
+}
